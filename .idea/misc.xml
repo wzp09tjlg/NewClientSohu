@@ -37,7 +37,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>Abstraction issues</id>
+            <id>Android</id>
           </State>
         </selected-state>
       </profile-state>
@@ -58,9 +58,6 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
-  </component>
-  <component name="SvnConfiguration">
-    <configuration>C:\Users\Walter\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="masterDetails">
     <states>
