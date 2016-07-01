@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button
+        android:id="@+id/sina_popupwindow_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="center"
+        android:layout_centerInParent="true"
+        />
+    <Button
+        android:id="@+id/sina_popupwindow_left_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="left_up"
+        />
+    <Button
+        android:id="@+id/sina_popupwindow_left_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="left_down"
+        android:layout_alignParentBottom="true"
+        />
+    <Button
+        android:id="@+id/sina_popupwindow_right_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="right_up"
+        android:layout_alignParentRight="true"
+        />
+    <Button
+        android:id="@+id/sina_popupwindow_right_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="right_down"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+</RelativeLayout>

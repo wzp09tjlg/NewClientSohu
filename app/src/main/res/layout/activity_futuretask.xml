@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button
+        android:id="@+id/sina_btn_futuretask_start"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:gravity="center"
+        android:text="start"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/sina_btn_futuretask_get"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_below="@+id/sina_btn_futuretask_start"
+        android:gravity="center"
+        android:text="get"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

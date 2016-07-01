@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_title_item"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/dimen_15dp"
+    android:paddingRight="@dimen/dimen_15dp"
+    android:clickable="true"
+    >
+    <com.sina.home.testfor_newclient.widget.TitleHorizontalScrollView.ItemTitleTextView
+        android:id="@+id/text_title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+    <View
+        android:id="@+id/view_title_index"
+        android:layout_width="@dimen/dimen_60dp"
+        android:layout_height="@dimen/dimen_4dp"
+        android:layout_marginLeft="@dimen/dimen_1dp"
+        android:layout_marginRight="@dimen/dimen_1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/item_title_index_selector"
+        />
+</RelativeLayout>

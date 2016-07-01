@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--这是定义自定义控件的属性-->
+    <!-- DragGrid 的自定义属性 -->
+    <declare-styleable name="DragGrid">
+        <!--列数-->
+        <attr name="numColumn" format="integer"/>
+        <!--固定不动个数-->
+        <attr name="numFixed" format="integer"/>
+        <!--放大的倍数-->
+        <attr name="dragScale" format="float"/>
+        <!--水平间距-->
+        <attr name="horizontalSpace" format="dimension"/>
+        <!--垂直间距-->
+        <attr name="verticalSpace" format="dimension"/>
+        <!--透明的系数-->
+         <attr name="alphaScale" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="TitleHScrlView">
+        <!-- 点击之后向中间靠 还是向两边靠-->
+        <attr name="clickedType" format="integer">
+            <enum name="Side" value="0"/>
+            <enum name="Center" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <!--针对标题栏上的每个item文字的自定义-->
+    <declare-styleable name="ItemTitleText">
+        <!-- 整体的MarginLeft-->
+        <attr name="marginLeft" format="dimension"/>
+        <!-- 整体的MarginRight-->
+        <attr name="marginRight" format="dimension"/>
+        <!-- 整体的MarginTop-->
+        <attr name="marginTop" format="dimension"/>
+        <!-- 整体的MarginBottom-->
+        <attr name="marginBottom" format="dimension"/>
+    </declare-styleable>
+
+    <!--这对标题栏上的index的属性自定义-->
+    <declare-styleable name="TitleIndex">
+        <!-- index的宽-->
+        <attr name="titleIndexWidth" format="dimension"/>
+        <!-- index的高-->
+        <attr name="titleIndexHeight" format="dimension"/>
+        <!-- index的颜色-->
+        <attr name="titleIndexColor" format="color"/>
+        <!-- index是否动画-->
+        <attr name="isAnimation" format="boolean"/>
+    </declare-styleable>
+
+    <!--针对表题栏两边的透明效果的属性自定义-->
+    <declare-styleable name="TitleShade">
+        <!-- 标题两边的渐变-->
+        <attr name="titleShadeWidth" format="dimension"/>
+        <!-- 整体的paddingLeft-->
+        <attr name="titleShadeHeight" format="dimension"/>
+        <!-- 整体的paddingLeft-->
+        <attr name="titleShadeColor" format="color"/>
+        <!-- 整体的paddingLeft-->
+        <attr name="titleShadeAlph" format="float"/>
+        <!--设置渐变的方向-->
+        <attr name="titleOrientation" format="integer">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <!--gridview相关-->
+    <declare-styleable name="lbBaseGridView">
+        <attr name="focusOutFront" format="boolean" />
+        <attr name="focusOutEnd" format="boolean" />
+        <attr name="horizontalMargin" format="dimension" />
+        <attr name="verticalMargin" format="dimension" />
+        <attr name="android:gravity" />
+    </declare-styleable>
+    <declare-styleable name="lbHorizontalGridView">
+        <attr name="rowHeight" format="dimension">
+            <enum name="wrap_content" value="-2" />
+        </attr>
+        <attr name="numberOfRows" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="lbVerticalGridView">
+        <attr name="columnWidth" format="dimension">
+            <enum name="wrap_content" value="-2" />
+        </attr>
+        <attr name="numberOfColumns" format="integer" />
+    </declare-styleable>
+
+    <!-- 自定义动画的相关属性-->
+    <declare-styleable name="IndicatorView">
+        <attr name="indicator">
+            <flag name="BallPulse" value="0"/>
+            <flag name="BallGridPulse" value="1"/>
+            <flag name="BallClipRotate" value="2"/>
+            <flag name="BallClipRotatePulse" value="3"/>
+            <flag name="SquareSpin" value="4"/>
+            <flag name="BallClipRotateMultiple" value="5"/>
+            <flag name="BallPulseRise" value="6"/>
+            <flag name="BallRotate" value="7"/>
+            <flag name="CubeTransition" value="8"/>
+            <flag name="BallZigZag" value="9"/>
+            <flag name="BallZigZagDeflect" value="10"/>
+            <flag name="BallTrianglePath" value="11"/>
+            <flag name="BallScale" value="12"/>
+            <flag name="LineScale" value="13"/>
+            <flag name="LineScaleParty" value="14"/>
+            <flag name="BallScaleMultiple" value="15"/>
+            <flag name="BallPulseSync" value="16"/>
+            <flag name="BallBeat" value="17"/>
+            <flag name="LineScalePulseOut" value="18"/>
+            <flag name="LineScalePulseOutRapid" value="19"/>
+            <flag name="BallScaleRipple" value="20"/>
+            <flag name="BallScaleRippleMultiple" value="21"/>
+            <flag name="BallSpinFadeLoader" value="22"/>
+            <flag name="LineSpinFadeLoader" value="23"/>
+            <flag name="TriangleSkewSpin" value="24"/>
+            <flag name="Pacman" value="25"/>
+            <flag name="BallGridBeat" value="26"/>
+            <flag name="SemiCircleSpin" value="27"/>
+        </attr>
+        <attr name="indicator_color" format="color"/>
+    </declare-styleable>
+</resources>

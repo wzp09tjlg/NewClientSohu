@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/title_search_style">
+    <ImageView
+        android:id="@+id/sina_img_search"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12dp"
+        android:src="@drawable/icon_search"
+        />
+    <EditText
+        android:id="@+id/sina_text_search"
+        android:layout_width="0dp"
+        android:layout_height="38dp"
+        android:layout_toRightOf="@id/sina_img_search"
+        android:layout_toLeftOf="@+id/sina_view_cancel"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="14dp"
+        android:hint="@string/search_hint"
+        android:textSize="16sp"
+        />
+    <View
+        android:id="@+id/sina_view_cancel"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dp"
+        android:background="#0f8"
+        android:clickable="true"
+        />
+</RelativeLayout>
